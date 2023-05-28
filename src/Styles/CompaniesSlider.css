@@ -1,0 +1,31 @@
+.companySlider {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.heading{
+    margin-left: 7%;
+    font-size: large;
+}
+
+.hover-underline-animation {
+    position: relative;
+    cursor: pointer;
+  }
+  .hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 95%;
+    transform: scaleX(0);
+    height: 1.5px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+    cursor: pointer;
+  }
+  .hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
