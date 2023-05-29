@@ -1,6 +1,6 @@
 .verticalLeft {
     border-left: 2px dashed gray;
-    height: 500%;
+    height: 1000%;
     position:absolute;
     left: 2%;
     opacity: 0.2;
@@ -8,7 +8,7 @@
 
 .verticalRight {
     border-right: 2px dashed gray;
-    height: 500%;
+    height: 1000%;
     position:absolute;
     right: 2%;
     opacity: 0.2;

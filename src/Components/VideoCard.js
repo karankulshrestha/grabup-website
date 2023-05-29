@@ -8,7 +8,7 @@ const VideoCard = () => {
         class="flex flex-col items-center bg-black border border-black rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
       >
         <img
-          class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
+          class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-20 md:rounded-none md:rounded-l-lg"
           src="https://pbs.twimg.com/profile_images/1565985672501927936/d-r-h241_400x400.jpg"
           alt=""
         />

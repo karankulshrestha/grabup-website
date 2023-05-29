@@ -18,14 +18,14 @@ const CompaniesSlider = () => {
       <div className="items-center flex flex-wrap justify-start mt-16 text-gray-400 heading">
         <div>
           Grabup Aims to work with{" "}
-          <span className="hover-underline-animation">Startups, {"  "} </span>
+          <span className="hover-underline">Startups, {"  "} </span>
           {""}
-          <span className="hover-underline-animation">Industries, </span>{" "}
-          <span className="hover-underline-animation">
+          <span className="hover-underline">Industries, </span>{" "}
+          <span className="hover-underline">
             {" "}
             Government Agencies{" "}
           </span>{" "}
-          & <span className="hover-underline-animation"> Manufacturers </span>
+          & <span className="hover-underline"> Manufacturers </span>
         </div>
       </div>
       <div className="companySlider mt-10">

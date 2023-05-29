@@ -1,7 +1,7 @@
 import * as React from "react";
 import "../Styles/Section.css";
-import Screen1 from "../assets/screen1.svg";
-import Screen2 from "../assets/screen2.svg";
+import { Canvas } from "@react-three/fiber";
+import Blob from "../Components/Blob/Blob";
 
 const Section = () => {
   return (
@@ -29,13 +29,10 @@ const Section = () => {
         <span>Book a Demo</span>
         </div>
       </div>
-      <div className="flex flex-row ml-36 flex-wrap">
-        <div className="transform: -rotate-12">
-          <img src={Screen1} alt="React Logo" height={400} width={250} />
-        </div>
-        <div className="transform: rotate-12">
-          <img src={Screen2} alt="React Logo" height={400} width={250} />
-        </div>
+      <div className="flex flex-row ml-50 flex-wrap -mt-40" style={{ width: "50vw", height: "100vh" }}>
+      <Canvas camera={{ position: [0.0, 0.0, 8.0] }}>
+        <Blob />
+      </Canvas>
       </div>
     </div>
   );

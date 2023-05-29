@@ -8,11 +8,11 @@
     font-size: large;
 }
 
-.hover-underline-animation {
+.hover-underline {
     position: relative;
     cursor: pointer;
   }
-  .hover-underline-animation::after {
+  .hover-underline::after {
     content: '';
     position: absolute;
     width: 95%;
@@ -25,7 +25,7 @@
     transition: transform 0.25s ease-out;
     cursor: pointer;
   }
-  .hover-underline-animation:hover::after {
+  .hover-underline:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
   }

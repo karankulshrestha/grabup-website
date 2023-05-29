@@ -1,0 +1,79 @@
+.partnerName {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(33, 33, 33);
+    color: #c0bfbf;
+    margin-top: 4rem;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+    font-weight: bold;
+    font-size:x-large;
+    margin-left: 1rem;
+}
+
+.partnerName:hover {
+    background-color: #494848;
+}
+
+.bottom-heading {
+    color: white;
+    margin-left: 8%;
+    font-size: x-large;
+    margin-top: 7rem;
+}
+
+.innerComponent h1{
+    color: white;
+    font-size: xx-large;
+    cursor: pointer;
+}
+
+.innerComponent p{
+    color: rgb(156, 156, 156);
+    margin-top: 1rem;
+}
+
+.topW {
+    margin-left: 9%;
+    margin-top: 7rem;
+    max-width: 40%;
+    flex-wrap: wrap;
+}
+
+.innerComponent {
+    margin-top: 3rem;
+}
+
+.LeftLine {
+    border-left: 2px solid rgb(141, 141, 141);
+    height: 65%;
+    position:absolute;
+    margin-top: 9rem;
+    left: 7.5%;
+    opacity: 0.2;
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #20f44e;
+  }
+  
+  .hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #20f44e;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }

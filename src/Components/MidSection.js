@@ -16,7 +16,7 @@ const MidSection = () => {
         businesses who buy, sell, and recycle the finished goods.
       </h1>
       <div className="items-center flex justify-start button">
-        <span>Talk With Our Experts</span>
+        <span>Talk Us to Know More</span>
     </div>
       <div>
         <div></div>

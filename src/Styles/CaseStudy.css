@@ -1,0 +1,25 @@
+.main-head-case {
+  margin-left: 8%;
+  margin-top: 3rem;
+  background: linear-gradient(to right, #62ff8c 0%, #14ff72 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 3px;
+  font-size: large;
+}
+
+.main-head-mid-case {
+    color: white;
+    font-size: 8vh;
+    margin-left: 8%;
+    margin-top: 2rem;
+}
+
+.main-sub-head {
+    margin-left: 9%;
+    color: white;
+    font-size: large;
+    margin-top: 2rem;
+}
+
+
