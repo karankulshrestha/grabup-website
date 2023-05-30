@@ -7,6 +7,8 @@ import MidSection from "./Components/MidSection";
 import ColumnText from "./Components/ColumnText";
 import CaseStudies from "./Components/CaseStudies";
 import  TeamSection  from "./Components/TeamSection";
+import Timeline from "./Components/Timeline";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -23,7 +25,9 @@ function App() {
           <VideoSlider />
           <CaseStudies />
           <TeamSection />
-        </section>
+          <Timeline />
+          <Footer />
+        </section> 
       </div>
     </div>
   );

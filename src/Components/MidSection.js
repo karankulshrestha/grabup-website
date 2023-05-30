@@ -7,7 +7,7 @@ const MidSection = () => {
       <hr class="dashed-2" />
       <h1 className="head">Why is Grabup Unique ?</h1>
       <h1 className="subhead">Grabup Unique Connecting System.</h1>
-      <h1 className="bottomhead flex-wrap w-2/3">
+      <h1 className="bottomhead flex-wrap">
         Grabup offers a platform for scrap buyers to locate scrap that is for
         sale based on location. For commodities like aluminium, plastic, and
         other scraps to be sold directly to manufacturers, people put scrap for

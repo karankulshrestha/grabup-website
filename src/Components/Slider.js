@@ -35,7 +35,7 @@ export default function App() {
             style={{ width: "200px", objectFit: "cover" }}
           />
           <div className=" flex flex-col flex-1 flex-wrap">
-            <h1 className=" text-white mt-5 mb-3 text-xl text-green-500">
+            <h1 className=" text-white mt-3 mb-3 text-xl text-green-500 flex-wrap">
               VisionX 2030
             </h1>
             <h1 className=" text-white text-start text-2xl">
@@ -66,8 +66,8 @@ export default function App() {
             src="https://financialtribune.com/sites/default/files/field/image/17january/billgates.png"
             style={{ width: "200px", objectFit: "cover" }}
           />
-          <div className=" flex flex-col flex-1 flex-wrap">
-            <h1 className=" text-white mt-5 mb-3 text-xl text-green-500">
+          <div className="flex-col flex-1 flex-wrap">
+            <h1 className=" text-white mt-3 mb-3 text-xl text-green-500">
               VisionX 2030
             </h1>
             <h1 className=" text-white text-start text-2xl">
@@ -82,14 +82,14 @@ export default function App() {
                   color: "white",
                   width: "100px",
                   height: "50px",
-                  justifyItems: "end",
+                  display:"flex",
                 }}
               />
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide
-          style={{ cursor: "pointer" }}
+          style={{ cursor: "pointer"}}
           onClick={() =>
             window.open("https://www.youtube.com/watch?v=xLr0GStrnwQ", "_blank")
           }
@@ -99,7 +99,7 @@ export default function App() {
             style={{ width: "200px", objectFit: "cover" }}
           />
           <div className=" flex flex-col flex-1 flex-wrap">
-            <h1 className=" text-white mt-5 mb-3 text-xl text-green-500">
+            <h1 className=" text-white mt-3 mb-3 text-xl text-green-500">
               VisionX 2030
             </h1>
             <h1 className=" text-white text-start text-2xl">
@@ -131,7 +131,7 @@ export default function App() {
             style={{ width: "200px", objectFit: "cover" }}
           />
           <div className=" flex flex-col flex-1 flex-wrap">
-            <h1 className=" text-white mt-5 mb-3 text-xl text-green-500">
+            <h1 className=" text-white mt-3 mb-3 text-xl text-green-500">
               VisionX 2030
             </h1>
             <h1 className=" text-white text-start text-2xl">

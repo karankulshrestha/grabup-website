@@ -3,6 +3,13 @@
     margin-right: 7%;
 }
 
+@media only screen and (max-width: 600px) {
+  .companySlider {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
 .heading{
     margin-left: 7%;
     font-size: large;

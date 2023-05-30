@@ -10,7 +10,9 @@ function Headers() {
       <hr
         style={{
           marginTop: 50,
-          borderColor: "lime",
+          borderWidth: 4,
+          borderColor: "green",
+          opacity:1,
         }}
       />
       <Navbar />

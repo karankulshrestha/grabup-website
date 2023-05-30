@@ -50,7 +50,7 @@
     margin-left: 7%;
     margin-top: 5rem;
     font-size:x-large;
-    background: linear-gradient(to right, #30d05b 30%, #d2f6e6 20%);
+    background: linear-gradient(to right, #30d05b 30%, #1cff3a 20%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -72,4 +72,11 @@
     background: linear-gradient(to right, #ffffff 30%, #ffffff 20%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+}
+
+@media only screen and (max-width: 600px) {
+  .bottomhead {
+    line-height: 1.5;
+    max-width: 80%;
+  }
 }

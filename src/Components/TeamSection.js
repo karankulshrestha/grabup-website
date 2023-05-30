@@ -8,15 +8,14 @@ import harish from "../assets/profiles/Harish.svg";
 const TeamSection = () => {
   return (
     <div>
-    <h1 className="team-head hover-underline-animation">Core Team Members of Grabup</h1>
+      <h1 className="team-head hover-underline-animation">
+        Core Team Members of Grabup
+      </h1>
       <div className="container p-24">
         <div className="grid">
           <div className="card">
             <div className="card_img">
-              <img
-                src={karan}
-                alt=""
-              />
+              <img src={karan} alt="" />
             </div>
             <div className="card_body">
               <h2 className="card_title">Karan Kulshrestha</h2>
@@ -37,10 +36,7 @@ const TeamSection = () => {
           </div>
           <div className="card">
             <div className="card_img">
-              <img
-                src={zhao}
-                alt=""
-              />
+              <img src={zhao} alt="" />
             </div>
             <div className="card_body">
               <h2 className="card_title">Zhao Xiaosi</h2>
@@ -61,10 +57,7 @@ const TeamSection = () => {
           </div>
           <div className="card">
             <div className="card_img">
-              <img
-                src={harish}
-                alt=""
-              />
+              <img src={harish} alt="" />
             </div>
             <div className="card_body">
               <h2 className="card_title">Harish Singh</h2>
@@ -110,6 +103,7 @@ const TeamSection = () => {
         </div>
       </div>
       {/* <a href="https://youtu.be/7IoMG_NN7lA" target="_blank" className="link">Watch on youtube <i className="fab fa-youtube"></i></a> */}
+      <hr class="dashed-2 mt-2" />
     </div>
   );
 };

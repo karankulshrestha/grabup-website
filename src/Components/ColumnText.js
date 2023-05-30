@@ -34,7 +34,7 @@ const ColumnText = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-row ml-36 flex-wrap mt-28">
+        <div className="flex flex-row md:ml-36 flex-wrap mt-28 ml-10">
           <div className="transform: -rotate-12">
             <img src={Screen1} alt="React Logo" height={400} width={250} />
           </div>

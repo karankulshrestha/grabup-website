@@ -15,13 +15,13 @@ import Marquee from "react-fast-marquee";
 const CompaniesSlider = () => {
   return (
     <div>
-      <div className="items-center flex flex-wrap justify-start mt-16 text-gray-400 heading">
-        <div>
+      <div className="items-center flex flex-wrap justify-start mt-16 text-gray-400 heading leading-6">
+        <div className="tracking-wide leading-6">
           Grabup Aims to work with{" "}
-          <span className="hover-underline">Startups, {"  "} </span>
+          <span className="hover-underline leading-10">Startups, {"  "} </span>
           {""}
-          <span className="hover-underline">Industries, </span>{" "}
-          <span className="hover-underline">
+          <span className="hover-underline leading-10 ">Industries, </span>{" "}
+          <span className="hover-underline leading-10">
             {" "}
             Government Agencies{" "}
           </span>{" "}
@@ -29,7 +29,7 @@ const CompaniesSlider = () => {
         </div>
       </div>
       <div className="companySlider mt-10">
-        <Marquee>
+        <Marquee className=" left-0 right-0 ml-0 mr-0">
           <img src={Tata} height={200} width={200} />
           <img src={Sail} height={200} width={200}/>
           <img src={Jindal} height={200} width={200}/>
