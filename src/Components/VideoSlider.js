@@ -4,7 +4,7 @@ import Slider from "./Slider";
 
 const VideoSlider = () => {
   return (
-    <div className=" flex-wrap">
+    <div className=" flex-wrap" id="vision">
       <hr class="dashed-2 mt-20" />
       <div>
         <h1 className="main-head">Why We Built Grabup ?</h1>

@@ -8,15 +8,18 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 
 import "../Styles/CaseSlider.css";
+import modi from "../assets/profiles/modi.svg";
 
 // import required modules
 import { FreeMode, Pagination } from "swiper";
+import { useMediaQuery } from 'react-responsive';
 
 const CaseSlider = () => {
+  const isMobile = useMediaQuery({ query: `(max-width: 820px)` });
   return (
     <>
       <Swiper
-        slidesPerView={3}
+        slidesPerView={isMobile ? 1 : 3}
         spaceBetween={30}
         freeMode={true}
         modules={[FreeMode, Pagination]}

@@ -14,7 +14,7 @@ import Marquee from "react-fast-marquee";
 
 const CompaniesSlider = () => {
   return (
-    <div>
+    <div id="companies">
       <div className="items-center flex flex-wrap justify-start mt-16 text-gray-400 heading leading-6">
         <div className="tracking-wide leading-6">
           Grabup Aims to work with{" "}

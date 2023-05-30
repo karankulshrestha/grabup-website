@@ -2,6 +2,11 @@ import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import PlayCircleFilledIcon from "@mui/icons-material/PlayCircleFilled";
+import { useMediaQuery } from 'react-responsive';
+import modi from "../assets/profiles/modi.svg";
+import bill from "../assets/profiles/bill.svg";
+import elon from "../assets/profiles/elon.svg";
+import sirtata from "../assets/profiles/sirtata.svg";
 
 // Import Swiper styles
 import "swiper/css";
@@ -14,10 +19,11 @@ import "../Styles/Slider.css";
 import { FreeMode, Pagination } from "swiper";
 
 export default function App() {
+  const isMobile = useMediaQuery({ query: `(max-width: 820px)` });
   return (
     <>
       <Swiper
-        slidesPerView={3}
+        slidesPerView={isMobile ? 1 : 3}
         spaceBetween={30}
         freeMode={true}
         centeredSlides={true}
@@ -31,30 +37,9 @@ export default function App() {
           }
         >
           <img
-            src="https://www.imageshine.in/uploads/gallery/PNG_Images_of_Narendra_Modi.png"
-            style={{ width: "200px", objectFit: "cover" }}
+            src={modi}
+            style={{ width: "500px", objectFit: "cover" }}
           />
-          <div className=" flex flex-col flex-1 flex-wrap">
-            <h1 className=" text-white mt-3 mb-3 text-xl text-green-500 flex-wrap">
-              VisionX 2030
-            </h1>
-            <h1 className=" text-white text-start text-2xl">
-              India has the potential to become the recycling hub of the world.
-            </h1>
-            <div className="flex flex-wrap ml-6 justify-between">
-              <p className="text-gray-400 text-sm mt-2 text-start ml-1">
-                - Prime Minister Modi
-              </p>
-              <PlayCircleFilledIcon
-                style={{
-                  color: "white",
-                  width: "100px",
-                  height: "50px",
-                  justifyItems: "end",
-                }}
-              />
-            </div>
-          </div>
         </SwiperSlide>
         <SwiperSlide
           style={{ cursor: "pointer" }}
@@ -63,30 +48,9 @@ export default function App() {
           }
         >
           <img
-            src="https://financialtribune.com/sites/default/files/field/image/17january/billgates.png"
-            style={{ width: "200px", objectFit: "cover" }}
+            src={bill}
+            style={{ width: "500px", objectFit: "cover" }}
           />
-          <div className="flex-col flex-1 flex-wrap">
-            <h1 className=" text-white mt-3 mb-3 text-xl text-green-500">
-              VisionX 2030
-            </h1>
-            <h1 className=" text-white text-start text-2xl">
-              Bill Gates-Backed Republic Services Turns Trash Into Big Cash.
-            </h1>
-            <div className="flex flex-wrap ml-6 justify-between">
-              <p className="text-gray-400 text-sm mt-2 text-start ml-1">
-                - Forbes
-              </p>
-              <PlayCircleFilledIcon
-                style={{
-                  color: "white",
-                  width: "100px",
-                  height: "50px",
-                  display:"flex",
-                }}
-              />
-            </div>
-          </div>
         </SwiperSlide>
         <SwiperSlide
           style={{ cursor: "pointer"}}
@@ -95,30 +59,9 @@ export default function App() {
           }
         >
           <img
-            src="https://www.pngmart.com/files/22/Elon-Musk-PNG.png"
-            style={{ width: "200px", objectFit: "cover" }}
+            src={elon}
+            style={{ width: "500px", objectFit: "cover" }}
           />
-          <div className=" flex flex-col flex-1 flex-wrap">
-            <h1 className=" text-white mt-3 mb-3 text-xl text-green-500">
-              VisionX 2030
-            </h1>
-            <h1 className=" text-white text-start text-2xl">
-              Tesla Recycling Lithium solves EV's Biggest Problem
-            </h1>
-            <div className="flex flex-wrap ml-6 justify-between">
-              <p className="text-gray-400 text-sm mt-2 text-start ml-1">
-                - CNBC
-              </p>
-              <PlayCircleFilledIcon
-                style={{
-                  color: "white",
-                  width: "100px",
-                  height: "50px",
-                  justifyItems: "end",
-                }}
-              />
-            </div>
-          </div>
         </SwiperSlide>
         <SwiperSlide
           style={{ cursor: "pointer" }}
@@ -127,30 +70,9 @@ export default function App() {
           }
         >
           <img
-            src="https://indiapublickhabar.in/wp-content/uploads/2023/05/ratan-tata-removebg-preview.png"
-            style={{ width: "200px", objectFit: "cover" }}
+            src={sirtata}
+            style={{ width: "500px", objectFit: "cover" }}
           />
-          <div className=" flex flex-col flex-1 flex-wrap">
-            <h1 className=" text-white mt-3 mb-3 text-xl text-green-500">
-              VisionX 2030
-            </h1>
-            <h1 className=" text-white text-start text-2xl">
-            Tata Steel to set up India’s first steel scrap recycling unit.
-            </h1>
-            <div className="flex flex-wrap ml-6 justify-between">
-              <p className="text-gray-400 text-sm mt-2 text-start ml-1">
-                - Money Control
-              </p>
-              <PlayCircleFilledIcon
-                style={{
-                  color: "white",
-                  width: "100px",
-                  height: "50px",
-                  justifyItems: "end",
-                }}
-              />
-            </div>
-          </div>
         </SwiperSlide>
       </Swiper>
     </>

@@ -5,7 +5,7 @@ import Screen2 from "../assets/screen2.svg";
 
 const ColumnText = () => {
   return (
-    <div>
+    <div id="test1">
       <div className="flex flex-wrap">
         <div className="LeftLine"></div>
         <div className="topW">

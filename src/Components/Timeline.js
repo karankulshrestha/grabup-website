@@ -11,7 +11,7 @@ import "../Styles/Timeline.css";
 
 const Timeline = () => {
   return (
-    <div>
+    <div id="timeline">
       <h1 className="time-head hover-underline-animation">
         Public Launch Timeline
       </h1>

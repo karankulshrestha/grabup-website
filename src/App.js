@@ -9,6 +9,7 @@ import CaseStudies from "./Components/CaseStudies";
 import  TeamSection  from "./Components/TeamSection";
 import Timeline from "./Components/Timeline";
 import Footer from "./Components/Footer";
+import WaitList from "./Components/WaitList";
 
 function App() {
   return (

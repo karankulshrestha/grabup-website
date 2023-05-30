@@ -7,22 +7,22 @@ import harish from "../assets/profiles/Harish.svg";
 
 const TeamSection = () => {
   return (
-    <div>
+    <div id="company">
       <h1 className="team-head hover-underline-animation">
         Core Team Members of Grabup
       </h1>
-      <div className="container p-24">
+      <div className="container md:p-24 p-14">
         <div className="grid">
           <div className="card">
             <div className="card_img">
               <img src={karan} alt="" />
             </div>
             <div className="card_body">
-              <h2 className="card_title">Karan Kulshrestha</h2>
+              <h2 className="card_title">Karan Kuls.</h2>
               <h6 className="designation">Founder & CEO</h6>
               <div className="call_btn">
-                <a href="#" className="btn_icon">
-                  <span className="circle">
+                <a href="#" className="btn_icon justify-evenly">
+                  <span className="circle mt-auto mb-auto">
                     <EmailIcon
                       style={{
                         width: "50px",
@@ -41,7 +41,7 @@ const TeamSection = () => {
             <div className="card_body">
               <h2 className="card_title">Zhao Xiaosi</h2>
               <h6 className="designation">System Design Engineer</h6>
-              <div className="call_btn">
+              <div className="call_btn justify-evenly">
                 <a href="#" className="btn_icon">
                   <span className="circle">
                     <EmailIcon
@@ -62,7 +62,7 @@ const TeamSection = () => {
             <div className="card_body">
               <h2 className="card_title">Harish Singh</h2>
               <h6 className="designation">Backend Developer</h6>
-              <div className="call_btn">
+              <div className="call_btn justify-evenly">
                 <a href="#" className="btn_icon">
                   <span className="circle">
                     <EmailIcon
@@ -76,7 +76,7 @@ const TeamSection = () => {
               </div>
             </div>
           </div>
-          <div className="card">
+          {/* <div className="card">
             <div className="card_img">
               <img
                 src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80"
@@ -99,7 +99,7 @@ const TeamSection = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       {/* <a href="https://youtu.be/7IoMG_NN7lA" target="_blank" className="link">Watch on youtube <i className="fab fa-youtube"></i></a> */}

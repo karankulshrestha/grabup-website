@@ -13,12 +13,21 @@
     height: 100%;
 }
 
+@media only screen and (max-width: 600px) {
+    .container {
+        /* padding-left: 0; */
+    }
+  }
+
+
+
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 3%;
     margin: 5% 0;
 }
+
 
 .card {
     overflow: hidden;
@@ -28,6 +37,14 @@
     border-radius: 30px;
     text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+    .card {
+        width: 300px;
+        justify-content: center;
+    }
+  }
+
 
 
 .card_img img {
