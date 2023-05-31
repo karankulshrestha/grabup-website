@@ -19,7 +19,7 @@ import "../Styles/Slider.css";
 import { FreeMode, Pagination } from "swiper";
 
 export default function App() {
-  const isMobile = useMediaQuery({ query: `(max-width: 820px)` });
+  const isMobile = useMediaQuery({ query: `(max-width: 1050px)` });
   return (
     <>
       <Swiper
