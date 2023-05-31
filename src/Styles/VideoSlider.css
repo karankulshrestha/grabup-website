@@ -7,6 +7,13 @@
   -webkit-text-fill-color: transparent;
 }
 
+@media only screen and (max-width: 600px) {
+  .main-head {
+    margin-left: 6%;
+  }
+}
+
+
 .top-para {
   color: white;
   max-width: 50%;
@@ -18,7 +25,7 @@
 
 @media only screen and (max-width: 600px) {
   .top-para {
-    width: 320px;
+    width: 270px;
     max-width: 350px;
     flex-wrap: wrap;
     text-align: justify;
@@ -43,7 +50,7 @@
 
 @media only screen and (max-width: 600px) {
   .list-points li {
-    width: 320px;
+    width: 270px;
     max-width: 350px;
     flex-wrap: wrap;
     text-align: justify;
