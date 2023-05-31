@@ -1,16 +1,18 @@
 .blob-class {
-	width: 50vw; 
-	height: 100vh; 
+	width: 200px; 
+	height: 240px;
+	margin-left: auto;
+	margin-right: auto; 
 }
 
-@media only screen and (max-width: 1286px) {
+/* @media only screen and (max-width: 1286px) {
 	.blob-class {
 		width: 200px; 
 		height: 240px;
 		margin-left: auto;
 		margin-right: auto; 
 	}
-  }
+  } */
 
 .button {
 	border-radius: 50px;
